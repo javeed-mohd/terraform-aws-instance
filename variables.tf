@@ -7,10 +7,10 @@ variable "environment" {
 }
 
 variable "ami_id" {
-  type    = string # Start
+  type    = string # Starting
 }
 
-# Optional, users can override accordingly....
+# Optional, users can override accordingly...
 variable "instance_type" {
   default  = "t3.micro"
 }
